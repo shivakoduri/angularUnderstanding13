@@ -49,7 +49,7 @@ export class AppComponent {
     this.user.username = this.signupForm.value.userData.username;
     this.user.email = this.signupForm.value.userData.email;
     this.user.secretQuestion = this.signupForm.value.userData.secret;
-    this.user.answer = this.signupForm.value.userData.questionAnswer;
-    this.user.gender = this.signupForm.value.userData.gender;
+    this.user.answer = this.signupForm.value.questionAnswer;
+    this.user.gender = this.signupForm.value.gender;
   }
 }
